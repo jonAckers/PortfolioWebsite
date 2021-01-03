@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jon CompSci</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/logo-red.png">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    </head>
+    <body>
+        <!-- scroll up button -->
+        <div class="scroll-up-btn">
+            <i class="fas fa-angle-up"></i>
+        </div>
+
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo"><a href="#home"><img src="images/logo-name-blue.png"></img></a></div>
+                <ul class="menu">
+                    <li><a href="#home" class="menu-btn">Home</a></li>
+                    <li><a href="#about" class="menu-btn">About</a></li>
+                    <li><a href="#projects" class="menu-btn">Projects</a></li>
+                    <li><a href="#skills" class="menu-btn">Skills</a></li>
+                    <li><a href="#contact" class="menu-btn">Contact</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- home section start -->
+        <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1">Hello, my name is</div>
+                    <div class="text-2">Jonathon Ackers</div>
+                    <div class="text-3">And I'm a <span class="typing"></span></div>
+                    <a href="files/CV.pdf" download="Jonathon Ackers - CV.pdf">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- about section start -->
+        <section class="about" id="about">
+            <div class="max-width">
+                <h2 class="title">About me</h2>
+                <div class="about-content">
+                    <div class="column left">
+                        <img src="images/profile1.jpg" alt="">
+                    </div>
+                    <div class="column right">
+                        <div class="text">I'm Jonathon and I'm a <span class="typing-2"></span></div>
+                        <p>Hi! I’m a second year computer science student at the University of Cambridge. I am passionate about software engineering, with most of my experience being backend work in Java and Python. I have also worked with TypeScript for frontend applications.</p>
+                        <p>In my free time I enjoy watching Rugby League and Formula One, and I enjoy working on small electronics projects using my 3D printer.</p>
+                        <div class="links">
+                            <a href="https://github.com/jonAckers" target="_blank"><span class="fab fa-github"></span> github.com/jonAckers</a>
+                            <a href="https://linkedin.com/in/jonathon-ackers" target="_blank"><span class="fab fa-linkedin"></span> linkedin.com/in/jonathon-ackers</a>
+                            <a href="mailto:jonathon_ackers@hotmail.co.uk"><span class="fas fa-envelope"></span> jonathon_ackers@hotmail.co.uk</a>
+                        </div>
+                            <div class="download">
+                            <a href="files/CV.pdf" download="Jonathon Ackers - CV.pdf">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects section start -->
+        <section class="projects" id="projects">
+            <div class="max-width">
+                <h2 class="title">My projects</h2>
+                <div class="carousel owl-carousel">
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/website-thumbnail.gif" alt="">
+                            <div class="text">This Website</div>
+                            <p>Built using HTML, CSS, and JavaScript to act as an extended CV and allow me to practice my design skills.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/todo-thumbnail.jpg" alt="">
+                            <div class="text">To-Do App</div>
+                            <p>Built using Java to help manage my work at university and efficiently keep track of my time.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/sudoku-thumbnail.jpg" alt="">
+                            <div class="text">Sudoku Solver</div>
+                            <p>Built using Python to solve Sudoku puzzles that are entered by the user.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/pathfinding-thumbnail.jpg" alt="">
+                            <div class="text">Path-finding Visualiser</div>
+                            <p>Built using C++ to help visualise how shortest path algorithms work and to help me teach myself C++.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/chess-thumbnail.jpg" alt="">
+                            <div class="text">Chess AI</div>
+                            <p>Built using Java and Python for my A-Level coursework to learn how to create neural networks to play chess.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- skill section start -->
+        <section class="skills" id="skills">
+            <div class="max-width">
+                <h2 class="title">My skills</h2>
+                <div class="skills-content">
+                    <div class="column left">
+                        <div class="text">My creative skills & experiences.</div>
+                        <p>I have learnt a variety of different programming languages both as part of my education and in my free time. I always aim to improve my knowledge and learn more in order to better my ability so that I can efficiently and effectively tackle any challenges I face. I have taught myself using online blogs and video tutorials; and applied my knowledge to personal projects or as part of work for my degree and internships.</p>
+                    </div>
+                    <div class="column right">
+                        <div class="bars">
+                            <div class="info">
+                                <span>Python</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="line python"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Java</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="line java"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>C / C++</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="line cpp"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>SQL</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="line sql"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>OCaml</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="line ocaml"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>JavaScript</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="line javascript"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>PHP</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="line php"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Perl</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="line perl"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section start -->
+        <section class="contact" id="contact">
+            <div class="max-width">
+                <h2 class="title">Contact me</h2>
+                <div class="contact-content">
+                    <div class="column left">
+                        <div class="text">Get in Touch</div>
+                        <p>Feel free to get in touch, either using my email address or this form, if you have any questions.</p>
+                        <div class="icons">
+                            <div class="row">
+                                <i class="fas fa-user"></i>
+                                <div class="info">
+                                    <div class="head">Name</div>
+                                    <div class="sub-title">Jonathon Ackers</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="info">
+                                    <div class="head">Address</div>
+                                    <div class="sub-title">Liverpool, UK</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-envelope"></i>
+                                <div class="info">
+                                    <div class="head">Email</div>
+                                    <div class="sub-title">jonathon_ackers@hotmail.co.uk</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column right">
+                        <div class="text">Message me</div>
+                        <form name="contact" action="">
+                            <div class="fields">
+                                <div class="field name">
+                                    <input id="name-field" name="name" type="text" placeholder="Name" required>
+                                </div>
+                                <div class="field email">
+                                    <input id="email-field" name="email" type="email" placeholder="Email" required> 
+                                </div>
+                            </div>
+                            <div class="field">
+                                <input id="subject-field" name="subject" type="text" placeholder="Subject" required>
+                            </div>
+                            
+                            <div class="field textarea">
+                                <textarea id="message-field" name="message" id="" cols="30" rows="10" placeholder="Message..." required></textarea>
+                            </div>
+                            <div class="button">
+                                <button id="submit" type="submit">Send message</button>
+                                <img class="loader" src="images/load.svg" alt="">
+                            </div>
+                            <div  id="contact-response" class="contact-response">Message Sent!</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section start -->
+        <footer>
+            <span>Created By <a href="#home">Jonathon Ackers</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
